@@ -1,0 +1,128 @@
+/* Project Colors */
+
+/* 
+    -–AFblue: #628395;
+    -–beaver: #96897B;
+    -–vanilla: #DFD5A5;
+    -–buff: #CF995F;
+     */
+
+
+body {
+    background-color: #96897B;
+   }
+h1, h2, p {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 330px;
+    text-align: center;
+
+}
+
+.header {
+    background-image: url('/images/pexels-content-pixie-1405717-2967810.jpg');
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Setting an element to center */
+/* Set the position property of the parent element to relative . Then set the child's position property to absolute , top to 50% , and left to 50%  */
+
+.header-title-caption {
+    background-color: #CF995F;
+    align-self: center;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    /* position: absolute;
+    top: 25%;
+    left: 33%; */
+}
+
+.header-caption {
+    font-size: 20px;
+}
+
+.menu {
+    width: 80%;
+    /* the menu element is 80% of its parent element (body) */
+    background-color: #628395;
+    margin-left: auto;
+    margin-right: auto;
+    /* using mrg-left/right properties centers the #menu element horizontally within the body element */
+    text-align: center;
+}
+
+.center {
+    padding: 10px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-format {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.btn-format {
+    background-color: #96897B;
+    font-size: 17px;
+    border-color: #96897B;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+#logo-edit {
+    width: 300px;
+    height: 95%;
+}
+#logo-edit:hover {
+    opacity: 0.7;
+}
+#navbar-edit {
+    background-color: #CF995F;
+}
+
+/* Google Fonts Family */
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    position: absolute;
+    top: 30%;
+}
+
+.delightful-button {
+    padding: 5px;
+    background-color: #96897B;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+.delightful-button:hover {
+    padding: 5.5px;
+    border: solid 2px black;
+}
